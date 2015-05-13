@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* 樣板 */
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #f6f4ef;
+}
+img {
+	vertical-align: bottom;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.father {
+	position: absolute;
+}
+#all_height {
+}
+#all_back {
+	background-image: url(images/back.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #FFF;
+}
+.menu_back {
+	background-image: url(images/m_back.png);
+	background-repeat: repeat-x;
+}
+.menu_message {
+	position: absolute;
+	top: 20px;
+	z-index: 2;
+	right: 0px;
+}
+/* 文字 */
+.C_black_28px{
+	font-size: 28px;
+	color: #666666;
+}
+.C_black_25px{
+	font-size: 25px;
+	color: #9b7e5c;
+}
+.C_black_30px{
+	font-size: 30px;
+	color: #666666;
+}
+.C_black_30_2px{
+	font-size: 30px;
+	color: #d3ccb3;
+}
+.C_black_30_1px{
+	font-size: 30px;
+	color: #9b7e5c;
+}
+.C_black_32px{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	color: #9b7e5c;
+}
+.C_black_48px{
+	font-size: 48px;
+	color: #666666;
+}
+.D_black_3_H18x_28px{
+	font-size: 28px;
+	color: #666666;
+	text-align: justify;
+	text-justify: distribute;
+	word-break: break-all;
+	line-height: 40px;
+}
+/* 首頁 */
+.index_back {
+	background-image: url(images/p.png);
+	background-repeat: no-repeat;
+}
+.index_back2 {
+	background-image: url(images/t.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#about_box {
+	background-image: url(../../style/images/back.png);
+	width: 100%;
+	z-index: 3;
+	position: absolute;
+	display: none;
+}
+#c_box {
+	position: absolute;
+	height: 300px;
+	width: 640px;
+	top: 50px;
+	left: 50%;
+	margin-left: -320px;
+}
+.about_back {
+	background-image: url(images/c2.png);
+	background-repeat: repeat-y;
+}
+/* 婚紗館 */
+.p_back1 {
+	background-image: url(images/p_back1.jpg);
+	background-repeat: no-repeat;
+}
+.gallery { list-style: none; padding: 0; margin: 0; }
+.gallery li {
+	float: left;
+	width: 210px;
+	background-image: url(images/p_back.png);
+	background-repeat: no-repeat;
+	height: 210px;
+}
+.gallery li a {
+	display: block;
+	margin-top: 11px;
+}
+.gallery li img {
+	display: block;
+}
+/* 影音館 */
+.movie_back {
+	background-image: url(images/mov.jpg);
+	background-repeat: no-repeat;
+}
+/* 地圖 */
+.map_back1 {
+	background-image: url(images/map1.png);
+	background-repeat: no-repeat;
+}
+.map_back2 {
+	background-image: url(images/map2.png);
+	background-repeat: no-repeat;
+}
+#map {
+	height: 500px;
+	width: 590px;
+}
+.user_label {
+	font-size: 20px;
+	background: rgba(22,22,22,0.6);
+	color: #fff;
+	padding: .25em;
+	font-family: Verdana, Geneva, sans-serif;
+}
+/* 祝福便利貼 */
+.mes_back {
+	background-image: url(images/po2.jpg);
+	background-repeat: repeat-y;
+	background-color: #FFF;
+}
+.po_back {
+	background-image: url(images/po_top1.png);
+	background-repeat: no-repeat;
+}
+/* 表單 */
+input {
+	border: 1px solid #666666;
+	border-radius: 15px 15px 15px 15px;
+	color: #333333;
+	outline: medium none;
+	padding: 5px;
+	font-size: 30px;
+	height: 40px;
+	width: 100%;
+}
+textarea {
+	border: 1px solid #666666;
+	border-radius: 15px 15px 15px 15px;
+	color: #333333;
+	outline: medium none;
+	padding: 5px;
+	font-size: 30px;
+	height: 300px;
+	width: 100%;
+}
+#submit {
+	height: 62px;
+	width: 170px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
