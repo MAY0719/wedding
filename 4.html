@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta content='width=640px; initial-scale=0.50; maximum-scale=0.50;minimum-scale=0.50;' name='viewport' />
+    <script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="jquery-migrate-1.2.1.min.js">
+    </script>
+    <script type="text/javascript" src="jquery/js_mobile.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>囍悅網</title>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="jquery.tinyMap-2.2.7.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        var map_name = "台北君悅大飯店 凱寓廳";
+        var add_name = "台北市信義區松壽路2號";
+        $('#map').tinyMap({
+            center: add_name,
+            zoom: 15, //地圖縮放等級
+            mapTypeControl: false, //關閉切換地圖類型
+            mapTypeId: 'roadmap',
+            marker: [{
+                addr: add_name,
+                text: '<strong>' + map_name + '</strong><p class="text1">' + add_name + '</p>',
+                label: '我們的婚禮在這！',
+                css: 'user_label',
+                icon: 'images/love.png'
+            }, ]
+        });
+
+    });
+    </script>
+</head>
+
+<body>
+    <div id="all_height">
+        <div id="all_back">
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td height="800" align="left" valign="top">
+                        <div class="menu_message">
+                            <table width="0%" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <a href="message.php?m_id=1"><img src="images/m2.png" width="195" height="70" border="0"></a>
+                                        </td>
+                                        <td>
+                                            <a href="../../invitation/index.php?m_id=1" target="_blank"><img src="images/m2-2.png" width="172" height="70" border="0"></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <table width="640" border="0" align="center" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td height="100">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="middle" class="C_black_48px">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td width="20">&nbsp;</td>
+                                                        <td align="center" valign="middle">台北君悅大飯店 凱寓廳</td>
+                                                        <td width="20">&nbsp;</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="50" align="center" valign="middle" class="C_black_30px">台北市信義區松壽路2號</td>
+                                        </tr>
+                                        <tr>
+                                            <td height="99" align="center" valign="middle" class="map_back1">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td width="300" align="right" valign="middle" class="C_black_48px">
+                                                            <table width="0%" border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td class="C_black_48px">17:30</td>
+                                                                    <td width="10">&nbsp;</td>
+                                                                    <td class="C_black_30px">入 席</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td width="30">&nbsp;</td>
+                                                        <td align="left" valign="middle">
+                                                            <table width="0%" border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td class="C_black_48px">18:00</td>
+                                                                    <td width="10">&nbsp;</td>
+                                                                    <td class="C_black_30px">準時開席</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="570" align="left" valign="top" class="map_back2">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td width="24" height="25">&nbsp;</td>
+                                                        <td>&nbsp;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>&nbsp;</td>
+                                                        <td align="left" valign="top">
+                                                            <div id="map"></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" class="menu_back"><img src="images/m.png" width="640" height="180" usemap="#Map"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <map name="Map">
+        <area shape="rect" coords="4,13,157,175" href="index.html">
+        <area shape="rect" coords="163,13,319,175" href="2.html">
+        <area shape="rect" coords="324,14,478,175" href="3.html">
+        <area shape="rect" coords="482,14,636,175" href="4.html">
+    </map>
+</body>
+
+</html>
