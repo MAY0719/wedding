@@ -22,20 +22,22 @@ function MM_swapImage() { //v3.0
 }
 
 $(function () {
-  $("<a>").fancybox({
-      width:520,
-      height:729,
-      padding: 0,
-      margin: 0,
-      centerOnScroll: true,
-      enableEscapeButton: false,
-      hideOnOverlayClick: false,
-      showCloseButton: false,
-      scrolling: "no",
-      type: "html",
-      content: "<img src=\"images/P1-OK-0625.png\" width=\"520\" height=\"729\">"
-  }).click();
-  setTimeout(function() {
-    $.fancybox.close();
-  },3000);
+  if($.fancybox) {
+   $("<a>").fancybox({
+       width:520,
+       height:729,
+       padding: 0,
+       margin: 0,
+       centerOnScroll: true,
+       enableEscapeButton: false,
+       hideOnOverlayClick: false,
+       showCloseButton: false,
+       scrolling: "no",
+       type: "html",
+       content: "<img src=\"images/P1-OK-0625.png\" width=\"520\" height=\"729\">"
+   }).click();
+   setTimeout(function() {
+     $.fancybox.close();
+   },10000);
+  }
 });
