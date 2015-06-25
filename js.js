@@ -34,8 +34,11 @@ $(function () {
        showCloseButton: false,
        scrolling: "no",
        type: "html",
-       content: "<img src=\"images/P1-OK-0625.png\" width=\"520\" height=\"729\">"
+       content: "<img id=\"close\" src=\"images/P1-OK-0625.png\" width=\"520\" height=\"729\">"
    }).click();
+   $("body").on("click","#close",function() {
+   	 $.fancybox.close();
+   });
    setTimeout(function() {
      $.fancybox.close();
    },10000);
