@@ -41,6 +41,6 @@ $(function () {
    });
    setTimeout(function() {
      $.fancybox.close();
-   },10000);
+   },6000);
   }
 });
